@@ -1,0 +1,7 @@
+{
+  "name": "impressoraApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

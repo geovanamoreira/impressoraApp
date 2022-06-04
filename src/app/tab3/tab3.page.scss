@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+
+.titulo{
+  font-size: 23px;
+  font-family: 'Spline Sans Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.toolbar{
+  --background: #59529c;
+}
+
+.fundo1{
+  --background: #c4caff;
+}
+
+.card{
+  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+  transition: all 0.3s ease-out;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+
+}
+
+.preco{
+  --ion-text-color: #27851b;
+}
+
+.texto{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.texto2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.card1{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
