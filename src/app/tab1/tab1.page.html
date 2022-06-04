@@ -1,11 +1,59 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Staut Printers
+<ion-header>
+  <ion-toolbar class="toolbar ion-text-center">
+    <ion-title class="texto2">
+      Informações
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true"  class="fundo1">
+  <ion-row>
 
+    <ion-col size="12">
+      <ion-card class="card1">
+        <ion-item class="card2">
+          <ion-icon name="pin" slot="start"></ion-icon>
+          <ion-label>História das Impressoras 3D
+            <br></ion-label>
+        </ion-item>
+
+        <ion-card-content>
+          <img src="https://s2.glbimg.com/CLhGf83epHjnJqNxXe7p8UGdRXQ=/0x0:695x457/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/E/o/D8Elr8QV6waqoQgcwAdw/2014-04-22-charles-dull.png" alt="">
+          Tendo seu primeiro modelo criado em 1984, o autor deste grande feito foi Chuck Hull, engenheiro físico formado pela Universidade do Colorado e que na época trabalhava na produção de lâmpadas para a solidificação de resinas em uma empresa do qual se realizava um processo que utilizava luz UV, para aplicar camadas finas de plástico sobre mesas e móveis.
+          <br>
+          <p>Devido ao frustramento com o atraso na produção das peças plásticas (que podiam levar até 2 meses para ficarem prontas) e interessado pela tecnologia, Chuck Hull se viu impelido a desenvolver e testar um sistema de fotopolímero. Basicamente, é o processo que conhecemos hoje de curar a resina fotossensível em uma camada inteira. Camada por camada até formar a peça a ser construída.
+            <img src="https://imagens.3dlab.com.br/wp-content/uploads/2021/03/primeira-impressora-3D.jpg" alt="">
+          <p>Surgem então os protótipos iniciais feitos em laboratório e, a partir daí, a história da impressão 3D começa a todo vapor. Com Hull introduzindo o fatiamento digital e o arquivo em formato STL também.</p>
+
+          <p>Ainda na década de 80, mais precisamente em 1986, o norte-americano patenteou a inovação. Em ínterim, Chuck Hull inaugura a primeira empresa de impressão 3D do mundo: a 3D Systems! Atualmente ela é uma das maiores líderes do mercado, tanto em inovação quanto em comercialização da tecnologia.</p>
+          </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+  </ion-row>
+
+  <ion-row>
+
+    <ion-col size="12">
+      <ion-card class="card1">
+        <ion-item class="card2">
+          <ion-icon name="pin" slot="start"></ion-icon>
+          <ion-label>Um pouco sobre Chuck Hull
+            <br></ion-label>
+        </ion-item>
+
+        <ion-card-content>
+          <img src="http://printwayy.com/blog/wp-content/uploads/2018/07/check-hull.jpg" alt="">
+          <br>
+          <p>Nascido em Clifton, Colorado, em 12 de maio de 1939, é hoje conhecido como o Criador da Impressora 3D, uma das maiores tecnologias do mjundo atual.</p>
+          <br>
+          <p>Chuck Hull acreditava que, quando criou a impressora 3D, ela demoraria entre 25 e 30 anos para se tornar acessível ao público em geral, e le enão estava errado. Ainda na década de 90, era necessário desembolsar cerca de um milhão de dólares para adquirir uma máquina.</p>
+
+          <p>Hoje, é possível adquirir modelos novos por valores acessíveis, comparados a situações anteriores, encontrados com cada vez mais facilidade em empresas, escritório de design e de arquitetura, na área da saúde, educação e, em alguns casos, em residências. A previsão é que, em um futuro próximo, a impressora 3D esteja mais próxima do dia-a-dia das pessoas.</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <ion-button class="botao" color="botao" routerLink="../tab2">Veja os modelos mais usados!</ion-button>
+  </ion-row>
 </ion-content>

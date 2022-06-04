@@ -1,24 +1,60 @@
-ion-item{
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Spline+Sans+Mono&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&family=Spline+Sans+Mono&family=Ubuntu&display=swap');
 
-  --min-height: 30px;
+.titulo{
+  font-size: 23px;
+  font-family: 'Spline Sans Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
 
-  ion-note{
-      font-size: 1rem;
-      height: 30px;
-      margin: 0;
-      padding: 0;
-      padding-top: 4px;
-      font-weight: bold;
-  }
+.toolbar{
+  --background: #59529c;
+}
 
-  ion-label{
-      height: 30px;
-      margin: 0;
-      margin-left: 8px;
-  }
+.fundo1{
+  --background: #c4caff;
+}
 
-  ion-badge{
-      margin-left: 8px;
+.card{
+  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+  transition: all 0.3s ease-out;
+  padding: 10px;
+  margin: 10px;
+}
 
-  }
+.card:hover{
+  transform: translateY(-5px);
+
+}
+
+.preco{
+  --ion-text-color: #27851b;
+}
+
+.texto{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.texto2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.card1{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.botao{
+  margin-left: auto;
+  margin-right: auto;
 }
